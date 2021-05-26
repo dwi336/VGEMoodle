@@ -1,7 +1,7 @@
 <resources>
 
 
-    // Application
+    <!-- Application -->
 
     <string name="app_name">FOSS Moodle</string>
     <string name="app_permissions">
@@ -15,7 +15,7 @@
     <string name="app_share">Share using:</string>
 
 
-    // Moodle
+    <!-- Moodle -->
 
     <string name="subjects_color_red">Red</string>
     <string name="subjects_color_pink">Pink</string>
@@ -29,7 +29,7 @@
     <string name="subjects_color_brown">Brown</string>
 
 
-    // Login
+    <!-- Login -->
 
     <string name="login_user">Username</string>
     <string name="login_link">Link of your Moodle instance</string>
@@ -39,7 +39,7 @@
 
 
 
-    // Bookmarks
+    <!-- Bookmarks -->
 
     <string name="bookmark_remove">Delete</string>
     <string name="bookmark_remove_confirm">Delete Bookmark?</string>
@@ -50,7 +50,7 @@
     <string name="bookmark_saved_not">Bookmark already exists.</string>
     <string name="bookmark_icon">Icon</string>
 
-    // Menu Items
+    <!-- Menu Items -->
 
     <string name="action_bookmark">Bookmarks</string>
     <string name="action_menu">Menu</string>
@@ -71,7 +71,7 @@
     <string name="menu_openInBrowser">Open in Browser</string>
 
 
-    // Settings
+    <!-- Settings -->
 
     <string name="settings_security_moodle">Login data (Moodle)</string>
     <string name="settings_security_moodle_summary">Enter your Moodle login data. It will be filled in automatically. Please restart the app after editing your
@@ -82,7 +82,7 @@
     <string name="settings_security_pin">Pin (App access)</string>
     <string name="settings_security_pin_summary">Set a pin to protect app against unwanted access. Only use numbers.</string>
 
-    // SnackBar
+    <!-- SnackBar -->
 
     <string name="toast_yes">OK</string>
     <string name="toast_cancel">Cancel</string>
@@ -95,7 +95,7 @@
     <string name="toast_notForward">Can not go forward.</string>
     <string name="toast_external">External link. Open in default browser?</string>
 
-    // Dialogs
+    <!-- Dialogs -->
 
     <string name="dialog_help_title">Help</string>
     <string name="dialog_help_text">
@@ -141,7 +141,7 @@
     <string name="dialog_searchHint">Enter search term</string>
 
 
-    // Password
+    <!-- Password -->
 
     <string name="pw_hint">only numbers</string>
     <string name="pw_forgotten">Pin forgotten?</string>

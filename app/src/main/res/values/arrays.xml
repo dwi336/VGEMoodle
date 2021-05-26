@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    //String arrays
+    <!-- String arrays -->
 
     <string-array name="setting_entries_columns">
         <item>1</item>

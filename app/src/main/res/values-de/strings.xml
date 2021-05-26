@@ -2,7 +2,7 @@
 <resources>
 
 
-    // Application
+    <!-- Application -->
 
     <string name="app_name">FOSS Moodle</string>
     <string name="app_permissions">
@@ -16,7 +16,7 @@
     <string name="app_share">Teilen mit:</string>
 
 
-    // Moodle
+    <!-- Moodle -->
 
     <string name="subjects_color_red">Rot</string>
     <string name="subjects_color_pink">Pink</string>
@@ -29,7 +29,7 @@
     <string name="subjects_color_orange">Orange</string>
     <string name="subjects_color_brown">Braun</string>
 
-    // Login
+    <!-- Login -->
 
     <string name="login_user">Benutzername</string>
     <string name="login_link">Link deiner Moodle Instanz</string>
@@ -39,7 +39,7 @@
 
 
 
-    // Dialogs
+    <!-- Dialogs -->
 
     <string name="dialog_help_title">Hilfe</string>
     <string name="dialog_help_text">
@@ -80,7 +80,7 @@
     <string name="dialog_searchHint">Suchbegriff eingeben</string>
 
 
-    // Bookmarks
+    <!-- Bookmarks -->
 
     <string name="bookmark_remove">Löschen</string>
     <string name="bookmark_remove_confirm">Lesezeichen löschen?</string>
@@ -91,7 +91,7 @@
     <string name="bookmark_saved_not">Lesezeichen existiert bereits.</string>
     <string name="bookmark_icon">Icon</string>
 
-    // Menu Items
+    <!-- Menu Items -->
 
     <string name="action_bookmark">Lesezeichen</string>
     <string name="action_menu">Menu</string>
@@ -112,7 +112,7 @@
     <string name="menu_openInBrowser">Im Browser öffnen</string>
 
 
-    // Settings
+    <!-- Settings -->
 
     <string name="settings_security_moodle">Logindaten (Moodle)</string>
     <string name="settings_security_moodle_summary">Bitte gib deinen Moodledaten an. Sie werden dann auf der Anmeldeseite automatisch eingefügt. Nach dem
@@ -123,7 +123,7 @@
     <string name="settings_security_pin">Pin (App Zugang)</string>
     <string name="settings_security_pin_summary">Bestimme eine Pin um die App vor unbefugtem Zugriff zu schützen. Benutze nur Nummern.</string>
 
-    // Snackbar
+    <!-- Snackbar -->
 
     <string name="toast_yes">OK</string>
     <string name="toast_cancel">Abbrechen</string>
@@ -136,7 +136,7 @@
     <string name="toast_notForward">Keine nächste Seite.</string>
     <string name="toast_external">Externer Link. Im Standardbrowser öffnen?</string>
 
-    // Password
+    <!-- Password -->
 
     <string name="pw_hint">nur Ziffern</string>
     <string name="pw_forgotten">Pin vergessen?</string>

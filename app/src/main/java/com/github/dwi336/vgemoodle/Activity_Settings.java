@@ -29,7 +29,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
-
+import com.github.dwi336.vgemoodle.R;
 import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
 import android.view.View;
