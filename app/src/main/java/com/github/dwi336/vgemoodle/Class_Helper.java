@@ -17,7 +17,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.baumann.hhsmoodle;
+package com.github.dwi336.vgemoodle;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -258,7 +258,7 @@ class Class_Helper {
                     try {
                         // clearing app data
                         Runtime runtime = Runtime.getRuntime();
-                        runtime.exec("pm clear de.baumann.hhsmoodle");
+                        runtime.exec("pm clear com.github.dwi336.vgemoodle");
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

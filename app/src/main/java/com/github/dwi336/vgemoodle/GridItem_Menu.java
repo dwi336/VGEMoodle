@@ -1,4 +1,4 @@
-package de.baumann.hhsmoodle;
+package com.github.dwi336.vgemoodle;
 
 
 class GridItem_Menu {

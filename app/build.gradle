@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "de.baumann.hhsmoodle"
+        applicationId "com.github.dwi336.vgemoodle"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         minSdkVersion 21

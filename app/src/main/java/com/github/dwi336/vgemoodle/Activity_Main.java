@@ -17,7 +17,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.baumann.hhsmoodle;
+package com.github.dwi336.vgemoodle;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
