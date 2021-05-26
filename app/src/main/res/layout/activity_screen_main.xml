@@ -14,7 +14,7 @@
         android:layout_gravity="bottom"
         app:backgroundTint="@color/colorPrimary"
         app:hideOnScroll="true"
-        android:elevation="4dp">
+        app:elevation="4dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
