@@ -10,6 +10,22 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    File signFile = rootProject.file('secure.properties')
+    if (signFile.exists()) {
+
+        Properties props = new Properties()
+        props.load(new FileInputStream(signFile))
+
+        signingConfigs {
+            release {
+                storeFile file(props.getProperty('storeFile'))
+                storePassword props.getProperty('storePassword')
+                keyAlias props.getProperty('keyAlias')
+                keyPassword props.getProperty('keyPassword')
+            }
+        }
+    }
+
     defaultConfig {
         applicationId "com.github.dwi336.vgemoodle"
         multiDexEnabled true
@@ -23,6 +39,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     lintOptions {
