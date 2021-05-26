@@ -156,7 +156,7 @@ class Class_Helper {
             AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             final View dialogView = View.inflate(activity, R.layout.dialog_edit_login, null);
             final EditText moodle_link = dialogView.findViewById(R.id.moodle_link);
-            moodle_link.setText(sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.de/moodle/"));
+            moodle_link.setText(sharedPref.getString("link", "https://www.ville-moodle.de/"));
             final EditText moodle_userName = dialogView.findViewById(R.id.moodle_userName);
             moodle_userName.setText(sharedPref.getString("username", ""));
             final EditText moodle_userPW = dialogView.findViewById(R.id.moodle_userPW);
