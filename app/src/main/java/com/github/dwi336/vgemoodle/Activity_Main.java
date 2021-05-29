@@ -391,24 +391,19 @@ public class Activity_Main extends AppCompatActivity {
         bottomAppBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.action_search_close:
-                        mWebView.findAllAsync("");
-                        titleView.setText(mWebView.getTitle());
-                        bottomAppBar.replaceMenu(R.menu.menu_main);
-                        break;
-                    case R.id.action_search_next:
-                        mWebView.findNext(true);
-                        break;
-                    case R.id.action_search_prev:
-                        mWebView.findNext(false);
-                        break;
-                    case R.id.action_bookmark:
-                        openBookmarkDialog();
-                        break;
-                    case R.id.action_menu:
-                        openMenu();
-                        break;
+                final int itemId = item.getItemId();
+                if (itemId == R.id.action_search_close){
+                    mWebView.findAllAsync("");
+                    titleView.setText(mWebView.getTitle());
+                    bottomAppBar.replaceMenu(R.menu.menu_main);
+                } else if (itemId == R.id.action_search_next){
+                    mWebView.findNext(true);
+                } else if (itemId == R.id.action_search_prev){
+                    mWebView.findNext(false);
+                } else if (itemId == R.id.action_bookmark){
+                    openBookmarkDialog();
+                } else if (itemId == R.id.action_menu){
+                    openMenu();
                 }
                 return false;
             }
