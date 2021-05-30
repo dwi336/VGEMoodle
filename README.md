@@ -1,6 +1,8 @@
-# FOSS Moodle
+# VGE Moodle
 
-FOSS Moodle zeigt dir die mobile Internetseite von Moodleinstanzen an. Dazu müssen Link, Benutzername und Passwort deines Accounts eingegeben werden. Standardmäßig ist die App für die Heinrich-Hübsch-Schule in Karlsruhe entwickelt.
+VGE Moodle zeigt dir die mobile Internetseite der Moodle-Instanzen des Ville-Gymnasikums Erftstadt an. Dazu müssen Link, Benutzername und Passwort deines Accounts eingegeben werden.
+
+Die App stellt eine Anpassung der App der Heinrich-Hübsch-Schule in Karlsruhe dar, die unter https://github.com/scoute-dich/HHSMoodle verfügbar ist.
 
 ------
 ### FUNKTIONEN
@@ -14,28 +16,25 @@ FOSS Moodle zeigt dir die mobile Internetseite von Moodleinstanzen an. Dazu müs
 - keine Werbung
 - keine unnötigen Berechtigungen
 - geringer Speicherbedarf (<3mb)
-- Quelloffen: https://github.com/scoute-dich/HHSMoodle
+- Quelloffen: https://github.com/dwi336/VGEMoodle
 
 ### Download
-<a href="https://play.google.com/store/apps/details?id=de.baumann.hhsmoodle" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
-<a href="https://f-droid.org/packages/de.baumann.hhsmoodle/">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"></a>
+https://github.com/dwi336/VGEMoodle/releases
 
 Die offizielle Moodle Mobile App gibt es [hier für Android und IOS](https://download.moodle.org/mobile).
 
 ### Links:
-- [Änderungen](https://github.com/scoute-dich/HHSMoodle/blob/master/CHANGELOG.md)
-- [Lizenz](https://github.com/scoute-dich/HHSMoodle/blob/master/LICENSE.md)
+- [Änderungen](https://github.com/dwi336/VGEMoodle/blob/master/CHANGELOG.md)
+- [Lizenz](https://github.com/dwi336/VGEMoodle/blob/master/LICENSE.md)
 
-![1](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/1.jpg)
+![1](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/1.jpg)
 
-![2](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/2.jpg)
+![2](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/2.jpg)
 
-![3](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/3.jpg)
+![3](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/3.jpg)
 
-![4](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/4.jpg)
+![4](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/4.jpg)
 
-![5](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/5.jpg)
+![5](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/5.jpg)
 
-![6](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/6.jpg)
+![6](https://github.com/dwi336/VGEMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/6.jpg)
