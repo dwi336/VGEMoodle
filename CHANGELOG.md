@@ -1,3 +1,7 @@
+### 5.5
+- Anpassung an VGE
+- Aktualisierung der genutzten Bibliotheken
+
 ### 5.4
 - neu: Navigationsknopf
 - neu: Spaltenanzahl in Listen (Einstellungen)
