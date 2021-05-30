@@ -20,7 +20,7 @@
 
     <!-- Application -->
 
-    <string name="app_name">VGE Moodle</string>
+    <string name="app_name">FOSS Moodle</string>
     <string name="app_permissions">
 
         &lt;i>\"Access storage\" permission:&lt;/i>&lt;br>
