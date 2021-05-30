@@ -16,6 +16,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 [HHSMoodle](https://github.com/scoute-dich/HHSMoodle)
 
+[MaterialDesign](https://github.com/Templarian/MaterialDesign)
+
 [browser](https://github.com/yoshihiroando/browser)
 
 [NotificationNotes](https://github.com/khuttun/NotificationNotes)

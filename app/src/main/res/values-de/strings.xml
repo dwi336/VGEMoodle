@@ -70,10 +70,10 @@
         \u25AA nach oben/unten um auf der Seite nach oben/unten zu scrollen.
     </string>
 
-    <string name="dialog_license_title">Copyright © 2020 by AOSD</string>
+    <string name="dialog_license_title">Lizenzinformationen</string>
     <string name="dialog_license_text">
 
-        &lt;i>Besuche für mehr Informationen: https://github.com/scoute-dich/HHSMoodle&lt;/i>&lt;br>&lt;br>
+        &lt;i>Besuche für mehr Informationen: https://github.com/dwi336/VGEMoodle&lt;/i>&lt;br>&lt;br>
 
         Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von
         der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder
@@ -85,10 +85,23 @@
 
         &lt;i>Die folgenden Open Source Bibliotheken oder Projekte werden in dieser Software verwendet:&lt;/i>&lt;br>&lt;br>
 
+        &lt;b>HHSMoodle&lt;/b>&lt;br>
+        Verzweigt von Version 5.4.1.&lt;br>
+        Gaukler Faun&lt;br>
+        &lt;i>https://github.com/scoute-dich/HHSMoodle&lt;/i>
+
         &lt;b>Material Design Icons&lt;/b>&lt;br>
         SIL Open Font License, Version 1.1.&lt;br>
         Templarian&lt;br>
         &lt;i>https://github.com/Templarian/MaterialDesign&lt;/i>
+
+        &lt;b>browser&lt;/b>&lt;br>
+        &lt;i>https://github.com/yoshihiroando/browser&lt;/i>
+
+        &lt;b>NotificationNotes&lt;/b>&lt;br>
+        Kalle Huttunen&lt;br>
+        &lt;i>https://github.com/khuttun/NotificationNotes&lt;/i>
+
     </string>
 
     <string name="dialog_sortName">Name</string>
