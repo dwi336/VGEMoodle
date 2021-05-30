@@ -1,6 +1,6 @@
 # FOSS Moodle
 
-FOSS Moodle zeigt dir die mobile Internetseite von Moodle-Instanzen an. Dazu müssen Link, Benutzername und Passwort deines Accounts eingegeben werden. Die URL des Ville-Gymnasikums Erftstadt ist voreingestellt.
+FOSS Moodle zeigt dir die mobile Internetseite von Moodle-Instanzen an. Dazu müssen Link, Benutzername und Passwort deines Accounts eingegeben werden. Die URL des Ville-Gymnasiums Erftstadt ist voreingestellt.
 
 Die App stellt eine Anpassung der App der Heinrich-Hübsch-Schule in Karlsruhe dar, die unter https://github.com/scoute-dich/HHSMoodle verfügbar ist.
 
