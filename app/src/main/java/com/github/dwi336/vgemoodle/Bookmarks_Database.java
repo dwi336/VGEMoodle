@@ -26,7 +26,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.preference.PreferenceManager;
-import com.github.dwi336.vgemoodle.R;
 
 class Bookmarks_Database {
 
