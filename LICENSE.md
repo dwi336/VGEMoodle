@@ -14,6 +14,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ### Used open source projects
 
+[HHSMoodle](https://github.com/scoute-dich/HHSMoodle)
+
 [browser](https://github.com/yoshihiroando/browser)
 
 [NotificationNotes](https://github.com/khuttun/NotificationNotes)
