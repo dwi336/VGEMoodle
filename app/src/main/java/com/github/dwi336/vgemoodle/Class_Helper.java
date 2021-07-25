@@ -152,6 +152,7 @@ class Class_Helper {
 
     private static String protect;
     private static SharedPreferences sharedPref;
+    private static SharedPreferences encSharedPref;
 
     static void setLoginData (final Activity activity) {
         try {
@@ -160,9 +161,9 @@ class Class_Helper {
             final EditText moodle_link = dialogView.findViewById(R.id.moodle_link);
             moodle_link.setText(sharedPref.getString("link", "https://www.ville-moodle.de/"));
             final EditText moodle_userName = dialogView.findViewById(R.id.moodle_userName);
-            moodle_userName.setText(sharedPref.getString("username", ""));
+            moodle_userName.setText(encSharedPref.getString("username", ""));
             final EditText moodle_userPW = dialogView.findViewById(R.id.moodle_userPW);
-            moodle_userPW.setText(sharedPref.getString("password", ""));
+            moodle_userPW.setText(encSharedPref.getString("password", ""));
             builder.setView(dialogView);
             builder.setPositiveButton(R.string.toast_yes, new DialogInterface.OnClickListener() {
 
@@ -175,9 +176,10 @@ class Class_Helper {
                     if (username.length() < 1 || password.length() < 1  || link.length() < 1 ) {
                         Toast.makeText(activity, activity.getString(R.string.login_text_edit), Toast.LENGTH_SHORT).show();
                     } else {
-                        sharedPref.edit()
+                        encSharedPref.edit()
                                 .putString("username", username)
-                                .putString("password", password)
+                                .putString("password", password).commit();
+                        sharedPref.edit()                       
                                 .putString("link", link)
                                 .putString("favoriteURL", link)
                                 .putString("favoriteTitle", "Dashboard").commit();
@@ -203,7 +205,8 @@ class Class_Helper {
 
         PreferenceManager.setDefaultValues(activity, R.xml.user_settings, false);
         sharedPref = PreferenceManager.getDefaultSharedPreferences(activity);
-        protect = sharedPref.getString("settings_security_pin", "");
+        encSharedPref = EncryptedPreferenceManager.getEncSharedPreferences(activity);
+        protect = encSharedPref.getString("settings_security_pin", "");
 
         if (protect.length() > 0) {
             AlertDialog.Builder builder = new AlertDialog.Builder(activity);

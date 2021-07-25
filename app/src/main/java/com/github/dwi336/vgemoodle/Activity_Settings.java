@@ -121,8 +121,8 @@ public class Activity_Settings extends AppCompatActivity {
                 @Override
                 public boolean onPreferenceClick(final Preference preference){
                     final Activity activity = getActivity();
-                    final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Objects.requireNonNull(activity));
-                    final String password = sharedPref.getString("settings_security_pin", "");
+                    final SharedPreferences encSharedPref = EncryptedPreferenceManager.getEncSharedPreferences(activity);
+                    final String password = encSharedPref.getString("settings_security_pin", "");
                     AlertDialog.Builder builder = new AlertDialog.Builder(activity);
                     View dialogView = View.inflate(activity, R.layout.dialog_edit_pin, null);
 
@@ -136,7 +136,7 @@ public class Activity_Settings extends AppCompatActivity {
                         @Override
                         public void onClick(DialogInterface dialog, int whichButton) {
                             String inputTag = pass_userPW.getText().toString().trim();
-                            sharedPref.edit().putString("settings_security_pin", inputTag).apply();
+                            encSharedPref.edit().putString("settings_security_pin", inputTag).apply();
                         }
                     });
                     builder.setNegativeButton(R.string.toast_cancel, new DialogInterface.OnClickListener() {

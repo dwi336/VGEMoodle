@@ -86,6 +86,7 @@ public class Activity_Main extends AppCompatActivity {
     private WebView mWebView;
     private ProgressBar progressBar;
     private SharedPreferences sharedPref;
+    private SharedPreferences encSharedPref;
     private ValueCallback<Uri[]> mFilePathCallback;
 
     private static final int INPUT_FILE_REQUEST_CODE = 1;
@@ -118,6 +119,8 @@ public class Activity_Main extends AppCompatActivity {
         PreferenceManager.setDefaultValues(activity, R.xml.user_settings, false);
         sharedPref = PreferenceManager.getDefaultSharedPreferences(activity);
         columns = Integer.parseInt(sharedPref.getString("columns", "2"));
+
+        encSharedPref = EncryptedPreferenceManager.getEncSharedPreferences(activity);
 
         progressBar = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.GONE);
@@ -198,8 +201,8 @@ public class Activity_Main extends AppCompatActivity {
             public void onPageFinished(WebView view, final String url) {
                 super.onPageFinished(view, url);
 
-                String username = sharedPref.getString("username", "");
-                String password = sharedPref.getString("password", "");
+                String username = encSharedPref.getString("username", "");
+                String password = encSharedPref.getString("password", "");
 
                 final String js = "javascript:" +
                         "document.getElementById('password').value = '" + password + "';"  +
@@ -336,8 +339,8 @@ public class Activity_Main extends AppCompatActivity {
         });
 
         try {
-            if (sharedPref.getString("username", "").length() < 1 ||
-                    sharedPref.getString("password", "").length() < 1  ||
+            if (encSharedPref.getString("username", "").length() < 1 ||
+                    encSharedPref.getString("password", "").length() < 1  ||
                     sharedPref.getString("link", "https://www.ville-moodle.de/").length() < 1 ) {
                 Class_Helper.setLoginData (activity);
             } else {

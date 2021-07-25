@@ -16,7 +16,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 [HHSMoodle](https://github.com/scoute-dich/HHSMoodle)
 
-[MaterialDesign](https://github.com/Templarian/MaterialDesign)
+[AndroidX](https://android.googlesource.com/platform/frameworks/support)
+
+[Material Components for Android](https://github.com/material-components/material-components-android)
+
+[Material Design](https://github.com/Templarian/MaterialDesign)
 
 [browser](https://github.com/yoshihiroando/browser)
 

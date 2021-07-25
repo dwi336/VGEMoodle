@@ -1,3 +1,7 @@
+### 5.6
+- neu: verschlüsselte Speicherung der PIN und der Anmeldedaten
+- Aktualisierung der genutzten Bibliotheken
+
 ### 5.5
 - Anpassung an VGE
 - Aktualisierung der genutzten Bibliotheken
