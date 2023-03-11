@@ -1,3 +1,7 @@
+### 5.6.1
+- Aktualisierung auf Android 13
+- Aktualisierung der genutzten Bibliotheken
+
 ### 5.6
 - neu: verschlüsselte Speicherung der PIN und der Anmeldedaten
 - Aktualisierung der genutzten Bibliotheken
